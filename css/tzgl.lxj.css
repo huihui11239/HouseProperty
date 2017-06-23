@@ -1,0 +1,372 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font: normal 100% Helvetica, Arial, sans-serif;
+	/*font-size:62.5%;*/
+}
+h1 { font-size: 1.5em; }
+small { font-size: 0.875em;}
+.head{
+	width: 100%;
+	background: #333333;
+	height: 40px;
+}
+.head_con{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.head_left{
+	float: left;
+	padding-left:10%;
+}
+.head_left span{
+	color:#fff;
+	line-height: 40px;
+	font-size: 0.75em;
+}
+.head_left img{
+	vertical-align: middle;
+}
+.head_right{
+	float: right;
+	padding-right:10%;
+}
+.head_right span{
+	margin-left:5px;
+	color:#fff;
+	font-size: 0.75em;
+	line-height: 40px;
+}
+.head_right span a{
+	color:#fff;
+
+}
+.nav{
+	width: 100%;
+	background: url(../images/nav.jpg)no-repeat;
+	background-size: 100% 100%;
+	
+}
+.nav_con{
+	width: 80%;
+	margin:0 auto;
+	padding:2% 0%;
+	display:table;
+	vertical-align: middle;	
+	
+}
+.nav img{
+	display: inline-block;
+	float: left;
+	padding-left:10%;
+}
+.nav ul{
+	float: right;
+	padding-right:8%;
+}
+.nav ul li{
+	float: left;
+	width:120px;
+	text-align: center;
+	height: 45px;
+}
+.nav ul li a{
+	height: 20px;
+	display: block;
+	width: 120px;
+	font-size: 0.875em;
+	color: #fff;
+}
+.nav ul li span{
+	height: 20px;
+	display: block;
+	width: 120px;
+	font-size: 0.875em;
+	color: #fff;
+}
+.nav ul li:hover{
+	width: 120px;
+	height: 45px;
+	background:transparent;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	text-align: center;
+}
+.liebiao{
+	display: inline-block;
+	display: none;
+}
+.lbxiang{
+	display: none;
+}
+.banner_lxj img{
+	width: 100%;
+	height: 100%;
+}
+.content_lxj{
+	width: 80%;
+	margin:0 auto;
+}
+.contop_lxj{
+	width: 100%;
+	margin:0 auto;
+}
+.span1_lxj{
+	display: inline-block;
+	width:40%;
+	border: 1px solid #ccc;
+}
+.span2_lxj{
+	display: inline-block;
+	font-size: 1.5em;
+	width: 15%;
+	text-align: center;
+}
+.context_lxj{
+	width: 70%;
+	margin:0 auto;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.context_lxj img{
+	float: left;
+}
+.context_lxj div{
+	width: 60%;
+	float: left;
+	margin-left: 30px;
+}
+.context_lxj div h1{
+	font-size: 1.2em;
+	line-height: 50px;
+}
+.context_lxj div p{
+	font-size: 0.85em;
+	line-height: 25px;
+}
+.kszn_lxj{
+	width: 80%;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.kszn_lxj img{
+	width: 100%;
+	height: 100%;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.conbottom_lxj{
+	width: 80%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.conbottom_left_lxj{
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.conbottom_right_lxj{
+	width: 50%;
+	float: right;
+	overflow: hidden;
+}
+.conbottom_left_lxj div{
+	margin-top: 30px;
+	float: left;
+	width: 90%;
+}
+.conbottom_right_lxj div{
+	margin-top: 20px;
+	float: right;
+	width: 90%;
+}
+.conbottom_lxj h1{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #333333;
+}
+.conbottom_lxj p{
+	margin-top: 10px;
+	font-size: 0.875em;
+	line-height: 30px;
+}
+
+@media screen and (max-width:1199px){
+
+		
+	}
+	
+	
+	
+/*小于768*/
+@media screen and (max-width:768px){
+	.head{
+	width: 100%;
+	background: #333333;
+	height: 40px;
+	}
+	.head_left{
+	float: left;
+	padding-left:5%;
+	}
+	.head_right{
+	float: right;
+	padding-right:5%;
+	}
+	.nav{
+	width: 100%;
+	height: 80px;
+	background: url(../images/nav.jpg)no-repeat;
+	background-size: 100% 100%;
+	
+	}
+	.nav_con{
+		width: 80%;
+		margin:0 auto;
+		height: 100px;
+		position: relative;
+	/*	display:table-cell;
+		vertical-align: middle;	*/
+		
+	}
+	.nav img{
+		display: inline-block;
+		float: left;
+		padding-left:10%;
+		/*vertical-align: middle;*/
+	}
+	.nav ul {
+		display: none;
+	}
+	.liebiao{
+		display: block;
+		float: right;
+		line-height: 90px;
+	}
+	.lbxiang{
+		position: absolute;
+		right:-50px;
+		top:20px;
+		width: 100px;
+		height: 80px;
+		background: #fff;
+		opacity: 0.5;
+	}
+	.lbxiang a{
+		display: inline-block;
+		width: 100px;
+		font-size: 0.75em;
+		text-align: center;
+	}
+	/*.content{
+	width: 80%;
+	margin:0 auto;
+	}
+	.contop{
+		width: 100%;
+		margin:0 auto;
+	}*/
+	.span1_lxj{
+		display: inline-block;
+		width:35%;
+		border: 1px solid #ccc;
+	}
+	.span2_lxj{
+		display: inline-block;
+		font-size: 1.2em;
+		width: 20%;
+		text-align: center;
+	}
+	.context_lxj{
+		width: 100%;
+		margin:0 auto;
+		overflow: hidden;
+		margin-top: 50px;
+	}
+	.context_lxj img{
+		float: left;
+		width: 20%;
+	}
+	.context_lxj div h1{
+		font-size: 1.2em;
+		float: left;
+	}
+	.context_lxj div p{
+		display: none;
+		/*font-size: 0.85em;
+		line-height: 25px;*/
+	}
+	.kszn_lxj img{
+		margin: 0 auto;
+		display: inline-block;
+		width:100%;
+		height: 100%;
+	}
+	.conbottom_lxj{
+	width: 80%;
+	margin:0 auto;
+	overflow: hidden;
+	}
+	.conbottom_left_lxj{
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;	}
+	.conbottom_right_lxj{
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.conbottom_left_lxj div{
+		margin-top: 30px;
+		width: 100%;
+	}
+	.conbottom_right_lxj div{
+		margin-top: 20px;
+		width: 100%;
+	}
+	.conbottom_lxj h1{
+		font-size: 1.3em;
+		font-weight: bold;
+		color: #333333;
+	}
+	.conbottom_lxj p{
+		margin-top: 10px;
+		font-size: 0.875em;
+		line-height: 30px;
+	}
+}
+
+
+
+/*小于500*/
+@media screen and (max-width:500px){
+	.head_left{
+		display: none;
+	}
+	.span2_lxj{
+		font-size: 0.9em;
+	}
+	.context_lxj{
+		width: 100%;
+		margin:0 auto;
+		overflow: hidden;
+		margin-top: 50px;
+	}
+	.context_lxj img{
+		float: left;
+		width: 20%;
+	}
+	.context_lxj div h1{
+		font-size: 0.9em;
+		float: left;
+	}
+	.context_lxj div p{
+		display: none;
+		/*font-size: 0.85em;
+		line-height: 25px;*/
+	}
+}

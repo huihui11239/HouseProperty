@@ -1,0 +1,220 @@
+.content{
+	width:80%;
+	margin:0 auto;
+	margin-bottom:40px; 
+}
+.content .content_top_con p:first-child{
+	font-size: 35px;
+	color:#595757;
+	padding-top: 40px;
+}
+.content .content_top_con p:last-child{
+	font-size: 10px;
+	color:#888888;
+}
+.content .content_top{
+	width: 100%;
+}
+.content .content_top_con{
+	width: 183px;
+	height: 137px;
+	text-align: center;
+}
+.content_con{
+	width:100%;
+}
+.con_left{
+	width: 236px;
+	height: 650px;
+	border:1px solid #dededf;
+	float: left;
+}
+.touxiang{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.touxiang img{
+	margin-top: 39px;
+	width: 74px;
+	height: 74px;
+	border:1px solid #dededf;
+}
+.touxiang p:nth-child(2){
+	font-size: 14px;
+	margin-top: 10px;
+}
+.touxiang p:nth-child(3){
+	margin-top: 20px;
+}
+.touxiang p:nth-child(3) a{
+	display: inline-block;
+	width:36px;
+	height: 36px;
+}
+.touxiang p:nth-child(3) a:nth-child(1){
+	background:url(../images/con_left1.png) -43px 0 no-repeat;
+}
+.touxiang p:nth-child(3) a:nth-child(1):hover{
+	background:url(../images/con_left2.png) 0px 0 no-repeat;
+}
+.touxiang p:nth-child(3) a:nth-child(2){
+	background:url(../images/con_left1.png) 0px 0 no-repeat;
+}
+.touxiang p:nth-child(3) a:nth-child(2):hover{
+	background:url(../images/con_left2.png) -45px 0 no-repeat;
+}
+.touxiang p:nth-child(3) a:nth-child(3){
+	background:url(../images/con_left1.png) -90px 0 no-repeat;
+}
+.touxiang p:nth-child(3) a:nth-child(3):hover{
+	background:url(../images/con_left2.png) -89px 0 no-repeat;
+}
+.touxiang p:nth-child(3) a:nth-child(4){
+	background:url(../images/con_left1.png) -134px 0 no-repeat;
+}
+.touxiang p:nth-child(3) a:nth-child(4):hover{
+	background:url(../images/con_left2.png) -134px 0 no-repeat;
+}
+.touxiang p:nth-child(4){
+	font-size: 13px;
+	font-family: "宋体";
+	color:#797979;
+	margin-top: 15px;
+	margin-bottom: 9px;
+	text-align: left;
+	margin-left: 40px;
+}
+.touxiang p:nth-child(4) span{
+	color:red;
+}
+.touxiang .js_con_gry{
+	width:170px;
+	height: 8px;
+	background: #dfdbdc;
+	border-radius:4px;
+	margin-left: 40px;
+}
+.touxiang .js_con_red{
+	width:144px;
+	height: 8px;
+	background: #2ea6df;
+	border-radius:4px;
+}
+.grzl{
+	width: 236px;
+	height: 40px;
+	background: #2ea6df;
+	text-align: center;
+	line-height:40px;
+	margin-bottom: 20px;	
+}
+.grzl p a{
+	font-size: 14px;
+	color:#fff;
+}
+.mima{
+	width: 236px;
+	height: 40px;
+}
+.mima p{
+	width: 132px;
+	height: 40px;
+	font-size: 14px;
+	color:#333;
+	line-height: 40px;
+	text-align: center;	
+	border-bottom:1px solid #dededf;
+	margin:0 auto;
+}
+.con_right{
+	width:70%;
+	margin-left: 3.4%;
+	float:left;
+}
+.con_right div:nth-child(1){
+	width:100%;
+	height: 40px;
+	border-bottom:1px solid #2ea6df;
+}
+.con_right div:nth-child(1) p{
+	width: 180px;
+	height: 40px;
+	background: #2ea6df;
+	font-size: 17px;
+	color:#fff;
+	text-align: center;
+	line-height: 40px;
+}
+.con_right div:nth-child(2){
+	width:270px;
+	text-align: center;
+}
+.con_right div:nth-child(2) p{
+	font-size: 12px;
+	font-family: "宋体";
+	width:248px;
+	height: 38px;
+	vertical-align: middle;
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.con_right div:nth-child(2) input{
+	width:248px;
+	height: 38px;
+	border:1px solid #dfdbdc;
+	margin-bottom: 29px;
+	font-size: 13px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 20px;
+	color:#646464;
+}
+.con_right div:nth-child(2) input:last-child{
+	width:200px;
+	height: 40px;
+	font-size: 16px;
+	color:#fff;
+	text-align: center;
+	line-height: 40px;
+	background:#2ea6df;
+	padding-left:0;
+}
+.fk_red{
+	color:red;
+}
+@media screen and (min-width:790px) and (max-width:1199px){
+	.con_right{
+		width:50%;
+		margin-left: 3.4%;
+	}
+}
+@media screen and (max-width:789px){
+	.con_left{
+		width:100%;
+		height: 480px;
+		margin-bottom: 20px;
+	}
+	.con_right{
+		width:100%;
+	}
+	.con_right div:nth-child(2){
+		margin:0 auto;
+	}
+	.touxiang p:nth-child(4){
+		text-align: center;
+		margin-left: 0px;
+	}
+	.grzl{
+		margin:0 auto 20px;
+	}
+	.mima{
+		margin:0 auto;
+	}
+	.touxiang .js_con_gry{
+		margin:0 auto;
+	}
+}
+@media screen and (max-width:380px){
+	
+}
